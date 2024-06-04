@@ -31,25 +31,30 @@ function Lequipe() {
 
             <div className='box-dev'>
                 <div className='dev'>
-                    <img id='dev1' src={dev1} alt='dev1' />
-                    <h4>Axel BATTIGELLI</h4>
-                    <h5>Développement</h5>
+                    <img id='dev-img' src={dev1} alt='dev1' />
+                    <h3>Axel BATTIGELLI</h3>
+                    <h4>Développement</h4>
+                    <h4>Mail: axel.battigelli@epitech.eu</h4>
+                    <h4>LinkedIn: https://www.linkedin.com/in/axel-battigelli/</h4>
+                    <h4>Github: https://github.com/AxelBattigelli</h4>
                 </div>
             </div>
 
             <div className='box-dev'>
                 <div className='dev'>
-                    <img id='dev2' src={dev2} alt='dev2' />
-                    <h4>Tissia ECKLING</h4>
-                    <h5>Graphisme</h5>
+                    <img id='dev-img' src={dev2} alt='dev2' />
+                    <h3>Tissia ECKLING</h3>
+                    <h4>Graphisme</h4>
+                    <h4>Mail: axel.battigelli@epitech.eu</h4>
                 </div>
             </div>
 
             <div className='box-dev'>
                 <div className='dev'>
-                    <img id='dev3' src={dev3} alt='dev3' />
-                    <h4>Anicet OTT--FLO</h4>
-                    <h5>Architecture</h5>
+                    <img id='dev-img' src={dev3} alt='dev3' />
+                    <h3>Anicet OTT--FLO</h3>
+                    <h4>Architecture</h4>
+                    <h4>Mail: anicet.ottmann-florentin@epitech.eu</h4>
                 </div>
             </div>
         </div>

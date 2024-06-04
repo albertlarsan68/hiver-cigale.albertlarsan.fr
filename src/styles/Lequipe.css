@@ -1,6 +1,13 @@
+.Lequipe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .box-dev {
     color: aliceblue;
     margin: 40px;
+    width: 500px;
     display: flow-root;
     justify-content: space-between;
     align-items: center;
@@ -14,4 +21,8 @@
     border-radius: 25px;
     justify-content: space-between;
     align-items: center;
+}
+
+#dev-img {
+    border-radius: 10px;
 }
