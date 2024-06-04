@@ -1,0 +1,17 @@
+.box-dev {
+    color: aliceblue;
+    margin: 40px;
+    display: flow-root;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dev {
+    background-color: #1f769e;
+    color: aliceblue;
+    margin: 40px;
+    padding: 10px;
+    border-radius: 25px;
+    justify-content: space-between;
+    align-items: center;
+}

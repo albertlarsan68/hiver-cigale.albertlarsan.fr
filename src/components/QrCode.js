@@ -1,6 +1,6 @@
 import React from 'react';
 
-const qrcode = () => {
+const QrCode = () => {
     return (
         <a style="cursor: initial;"><svg style="max-width: 100%;height: auto;" width="984" height="984" viewBox="0 0 984 984">
                 <rect width="984" height="984" fill="#ffffff" x="0" y="0"></rect>
@@ -1815,4 +1815,4 @@ const qrcode = () => {
     );
 }
 
-export default qrcode;
+export default QrCode;
