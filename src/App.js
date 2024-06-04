@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Jeu from './pages/Jeu';
 import Media from './pages/Media';
 import Lequipe from './pages/Lequipe';
+import Contact from './pages/Contact';
 import NotFound from './pages/NotFound.js';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path='/jeu' element={<Jeu />} />
           <Route path='/media' element={<Media />} />
           <Route path='/lequipe' element={<Lequipe />} />
+          <Route path='/contact' element={<Contact />} />
           <Route path='/*' element={<NotFound />} />
         </Routes>
         <Footer />

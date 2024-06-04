@@ -18,7 +18,7 @@ const Header = () => {
                 <li className='header-menu-item' onClick={() => navigate('/lequipe')}>Médias</li>
 
                 <li className='header-menu-item' onClick={() => navigate('/lequipe')}>L'équipe</li>
-                <li className='header-menu-item' onClick={() => navigate('/contacts')}>Contact</li>
+                <li className='header-menu-item' onClick={() => navigate('/contact')}>Contact</li>
             </ul>
         {/* </div> */}
 
