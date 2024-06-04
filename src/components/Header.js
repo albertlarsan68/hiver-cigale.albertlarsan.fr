@@ -14,8 +14,8 @@ const Header = () => {
             <ul className='header-menu'>
 
                 <li className='header-menu-item' onClick={() => navigate('/jeu')}>Jeu</li>
-                <li className='header-menu-item' onClick={() => navigate('/lequipe')}>Univers</li>
-                <li className='header-menu-item' onClick={() => navigate('/lequipe')}>Médias</li>
+                <li className='header-menu-item' onClick={() => navigate('/univers')}>Univers</li>
+                <li className='header-menu-item' onClick={() => navigate('/media')}>Médias</li>
 
                 <li className='header-menu-item' onClick={() => navigate('/lequipe')}>L'équipe</li>
                 <li className='header-menu-item' onClick={() => navigate('/contact')}>Contact</li>
