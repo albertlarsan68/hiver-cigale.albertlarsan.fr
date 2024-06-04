@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-/* .header-menu {
+.header-menu {
     font-size: 30px;
     display: flex;
     justify-content: center;
@@ -27,11 +27,11 @@
 .header-menu-item:hover {
     background-color: #339bcc;
     cursor: pointer;
-} */
+}
 
-/* #logo_soft {
+#logo_soft {
     width: 100px;
-} */
+}
 
 /* Sidenav menu */
 .sidenav {

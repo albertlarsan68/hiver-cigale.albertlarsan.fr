@@ -9,7 +9,7 @@ const Header = () => {
 
     return (
         <div className='header'>
-            {/* <script href="./test.js"></script> */}
+            <script href="./test.js"></script>
             <img id='logo_soft' onClick={() => navigate('/')} src={logo_soft} alt='logo_soft' />
             <ul className='header-menu'>
 
@@ -20,26 +20,26 @@ const Header = () => {
                 <li className='header-menu-item' onClick={() => navigate('/lequipe')}>L'équipe</li>
                 <li className='header-menu-item' onClick={() => navigate('/contacts')}>Contact</li>
             </ul>
-        </div>
+        {/* </div> */}
 
-        //     <div id="mySidenav" className="sidenav">
-        //     <a id="closeBtn" href="#" className="close">&times;</a>
-        //     <ul>
-        //         <li><a href="#">A propos</a></li>
-        //         <li><a href="#">Nos services</a></li>
-        //         <li><a href="#">Témoignages</a></li>
-        //         <li><a href="#">Contact</a></li>
-        //     </ul>
-        //     </div>
+             {/* <div id="mySidenav" className="sidenav">
+             <a id="closeBtn" href="#" className="close">&times;</a>
+             <ul>
+                 <li><a href="#">A propos</a></li>
+                 <li><a href="#">Nos services</a></li>
+                 <li><a href="#">Témoignages</a></li>
+                 <li><a href="#">Contact</a></li>
+             </ul>
+             </div>
 
-        //     <a href="#" id="openBtn">
-        //     <span className="burger-icon">
-        //         <span></span>
-        //         <span></span>
-        //         <span></span>
-        //     </span>
-        //     </a>
-        // </div>
+             <a href="#" id="openBtn">
+             <span className="burger-icon">
+                 <span></span>
+                 <span></span>
+                 <span></span>
+             </span>
+             </a> */}
+         </div>
     );
 }
 
