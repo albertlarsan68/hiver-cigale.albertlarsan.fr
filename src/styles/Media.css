@@ -1,0 +1,11 @@
+.Media {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+#media-img {
+    /* height: 90vh; */
+    width: 80vh;
+}
