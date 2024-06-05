@@ -31,7 +31,7 @@ function Media() {
                 <div>
                     <img id='media-img' src={img2} alt="Screenshot 2" />
                     <br></br>
-                    <span>La cigale devant sa maison</span>
+                    <span>La cigale sur la place du village</span>
                     <br></br>
                     <br></br>
                     <br></br>
@@ -40,7 +40,7 @@ function Media() {
                 <div>
                     <img id='media-img' src={img3} alt="Screenshot 3" />
                     <br></br>
-                    <span>La cigale devant sa maison</span>
+                    <span>La cigale en forêt</span>
                     <br></br>
                     <br></br>
                     <br></br>
@@ -49,7 +49,7 @@ function Media() {
                 <div>
                     <img id='media-img' src={img4} alt="Screenshot 4" />
                     <br></br>
-                    <span>La cigale devant sa maison</span>
+                    <span>La cigale prête à combattre</span>
                     <br></br>
                     <br></br>
                     <br></br>
@@ -58,7 +58,7 @@ function Media() {
                 <div>
                     <img id='media-img' src={img5} alt="Screenshot 5" />
                     <br></br>
-                    <span>La cigale devant sa maison</span>
+                    <span>Menu</span>
                     <br></br>
                     <br></br>
                     <br></br>
@@ -67,7 +67,7 @@ function Media() {
                 <div>
                     <img id='media-img' src={img6} alt="Screenshot 6" />
                     <br></br>
-                    <span>La cigale devant sa maison</span>
+                    <span>L'inventaire / baluchon</span>
                     <br></br>
                     <br></br>
                     <br></br>
