@@ -16,59 +16,62 @@ function Media() {
                     <br></br>
                     C'est coloré, c'est unique alors prenez en plein les yeux !</p>
             </div>
+            <br></br>
 
-            <div>
-                <img id='media-img' src={img1} alt="Screenshot 1" />
-                <br></br>
-                <span>La cigale devant sa maison</span>
-                <br></br>
-                <br></br>
-                <br></br>
-            </div>
+            <div className='portofolio'>
+                <div>
+                    <img id='media-img' src={img1} alt="Screenshot 1" />
+                    <br></br>
+                    <span>La cigale devant sa maison</span>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                </div>
 
-            <div>
-                <img id='media-img' src={img2} alt="Screenshot 2" />
-                <br></br>
-                <span>La cigale devant sa maison</span>
-                <br></br>
-                <br></br>
-                <br></br>
-            </div>
+                <div>
+                    <img id='media-img' src={img2} alt="Screenshot 2" />
+                    <br></br>
+                    <span>La cigale devant sa maison</span>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                </div>
 
-            <div>
-                <img id='media-img' src={img3} alt="Screenshot 3" />
-                <br></br>
-                <span>La cigale devant sa maison</span>
-                <br></br>
-                <br></br>
-                <br></br>
-            </div>
+                <div>
+                    <img id='media-img' src={img3} alt="Screenshot 3" />
+                    <br></br>
+                    <span>La cigale devant sa maison</span>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                </div>
 
-            <div>
-                <img id='media-img' src={img4} alt="Screenshot 4" />
-                <br></br>
-                <span>La cigale devant sa maison</span>
-                <br></br>
-                <br></br>
-                <br></br>
-            </div>
+                <div>
+                    <img id='media-img' src={img4} alt="Screenshot 4" />
+                    <br></br>
+                    <span>La cigale devant sa maison</span>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                </div>
 
-            <div>
-                <img id='media-img' src={img5} alt="Screenshot 5" />
-                <br></br>
-                <span>La cigale devant sa maison</span>
-                <br></br>
-                <br></br>
-                <br></br>
-            </div>
+                <div>
+                    <img id='media-img' src={img5} alt="Screenshot 5" />
+                    <br></br>
+                    <span>La cigale devant sa maison</span>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                </div>
 
-            <div>
-                <img id='media-img' src={img6} alt="Screenshot 6" />
-                <br></br>
-                <span>La cigale devant sa maison</span>
-                <br></br>
-                <br></br>
-                <br></br>
+                <div>
+                    <img id='media-img' src={img6} alt="Screenshot 6" />
+                    <br></br>
+                    <span>La cigale devant sa maison</span>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                </div>
             </div>
         </div>
     );

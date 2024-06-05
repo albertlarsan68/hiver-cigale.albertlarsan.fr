@@ -1,4 +1,4 @@
-.Media {
+.portofolio {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -6,6 +6,5 @@
 }
 
 #media-img {
-    /* height: 90vh; */
     width: 80vh;
 }

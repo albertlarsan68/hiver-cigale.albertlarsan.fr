@@ -19,7 +19,7 @@ import dev3 from './../images/anicet.ottmann-florentin@epitech.eu.jpg';
 function Lequipe() {
     // const setIsLoading = true;
     // var t = setInterval(runFunction(setIsLoading), 1000);
-   
+
     // if (setIsLoading) {
     //     return <Loading />;
     // } else {
@@ -29,32 +29,41 @@ function Lequipe() {
     return (
         <div className="Lequipe">
 
-            <div className='box-dev'>
-                <div className='dev'>
-                    <img id='dev-img' src={dev1} alt='dev1' />
-                    <h3>Axel BATTIGELLI</h3>
-                    <h4>Développement</h4>
-                    <h4>Mail: axel.battigelli@epitech.eu</h4>
-                    <h4>LinkedIn: https://www.linkedin.com/in/axel-battigelli/</h4>
-                    <h4>Github: https://github.com/AxelBattigelli</h4>
-                </div>
+            <div>
+                <h1>L'équipe</h1>
+                <p>Découvrez ici un coup d'œil les créateurs du futur jeu phénomène. 
+                    <br></br>
+                    N'hésiter pas à voir leur travail ou à les contacter pour de futures missions !</p>
             </div>
 
-            <div className='box-dev'>
-                <div className='dev'>
-                    <img id='dev-img' src={dev2} alt='dev2' />
-                    <h3>Tissia ECKLING</h3>
-                    <h4>Graphisme</h4>
-                    <h4>Mail: axel.battigelli@epitech.eu</h4>
+            <div className='members'>
+                <div className='box-dev'>
+                    <div className='dev'>
+                        <img id='dev-img' src={dev1} alt='dev1' />
+                        <h3>Axel BATTIGELLI</h3>
+                        <h4>Développement</h4>
+                        <h4>Mail: axel.battigelli@epitech.eu</h4>
+                        <h4>LinkedIn: https://www.linkedin.com/in/axel-battigelli/</h4>
+                        <h4>Github: https://github.com/AxelBattigelli</h4>
+                    </div>
                 </div>
-            </div>
 
-            <div className='box-dev'>
-                <div className='dev'>
-                    <img id='dev-img' src={dev3} alt='dev3' />
-                    <h3>Anicet OTT--FLO</h3>
-                    <h4>Architecture</h4>
-                    <h4>Mail: anicet.ottmann-florentin@epitech.eu</h4>
+                <div className='box-dev'>
+                    <div className='dev'>
+                        <img id='dev-img' src={dev2} alt='dev2' />
+                        <h3>Tissia ECKLING</h3>
+                        <h4>Graphisme</h4>
+                        <h4>Mail: axel.battigelli@epitech.eu</h4>
+                    </div>
+                </div>
+
+                <div className='box-dev'>
+                    <div className='dev'>
+                        <img id='dev-img' src={dev3} alt='dev3' />
+                        <h3>Anicet OTT--FLO</h3>
+                        <h4>Architecture</h4>
+                        <h4>Mail: anicet.ottmann-florentin@epitech.eu</h4>
+                    </div>
                 </div>
             </div>
         </div>
