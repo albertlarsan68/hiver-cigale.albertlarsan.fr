@@ -2,8 +2,7 @@ import { useNavigate } from 'react-router-dom';
 import React from 'react';
 import '../styles/Header.css';
 import logo_soft from './../images/logo_soft.png';
-
-import './test'
+import './eventListerNavBar'
 
 const Header = () => {
     const navigate = useNavigate();
@@ -29,6 +28,7 @@ const Header = () => {
                     <span></span>
                 </span>
             </button>
+            
             <img id='logo_soft' onClick={() => navigate('/')} src={logo_soft} alt='logo_soft' />
         </div>
     );
