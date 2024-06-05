@@ -6,29 +6,6 @@
     align-items: center;
 }
 
-/* .header-menu {
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style-type: none;
-    gap: 40px;
-}
-
-.header-menu-item {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    transition: background-color 0.3s ease;
-    border-radius: 10px;
-}
-
-.header-menu-item:hover {
-    background-color: #339bcc;
-    cursor: pointer;
-} */
-
 #logo_soft {
     width: 100px;
 }
@@ -85,4 +62,20 @@
     height: 5px;
     background-color: aliceblue;
     margin: 6px 0;
+}
+
+.close {
+    background-color: #1f769e;
+    color: aliceblue;
+    border: none;
+}
+
+.close:hover {
+    color: rgb(193, 212, 230);
+}
+
+.openBtn {
+    background-color: #1f769e;
+    color: aliceblue;
+    border: none;
 }

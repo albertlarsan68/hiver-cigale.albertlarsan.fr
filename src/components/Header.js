@@ -1,18 +1,18 @@
 import { useNavigate } from 'react-router-dom';
 import React from 'react';
 import '../styles/Header.css';
-import './test'
 import logo_soft from './../images/logo_soft.png';
+
+import './test'
 
 const Header = () => {
     const navigate = useNavigate();
 
     return (
         <div className='header'>
-            <script href="./test.js"></script>
 
             <div id="mySidenav" className="sidenav">
-                <a id="closeBtn" href="#" className="close">&times;</a>
+                <button id="closeBtn" className="close">&times;</button>
                 <ul>
                     <li className='header-menu-item' onClick={() => navigate('/jeu')}>Jeu</li>
                     <li className='header-menu-item' onClick={() => navigate('/univers')}>Univers</li>
@@ -22,15 +22,14 @@ const Header = () => {
                 </ul>
             </div>
 
-            <a href="#" id="openBtn">
+            <button id="openBtn" className='openBtn'>
                 <span className="burger-icon">
                     <span></span>
                     <span></span>
                     <span></span>
                 </span>
-            </a>
+            </button>
             <img id='logo_soft' onClick={() => navigate('/')} src={logo_soft} alt='logo_soft' />
-
         </div>
     );
 }
