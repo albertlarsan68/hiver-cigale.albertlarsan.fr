@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.header-menu {
+/* .header-menu {
     font-size: 30px;
     display: flex;
     justify-content: center;
@@ -27,7 +27,7 @@
 .header-menu-item:hover {
     background-color: #339bcc;
     cursor: pointer;
-}
+} */
 
 #logo_soft {
     width: 100px;
@@ -41,7 +41,7 @@
     z-index: 1;
     top: 0;
     left: -250px;
-    background-color: #e8e8e8;
+    background-color: #1f769e;
     padding-top: 60px;
     transition: left 0.5s ease;
 }
@@ -53,17 +53,17 @@
 }
 
 /* Sidenav menu links */
-.sidenav a {
+.sidenav .header-menu-item a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: aliceblue;
     display: block;
     transition: 0.3s;
 }
 
-.sidenav a:hover {
-    color: #111;
+.sidenav .header-menu-item a:hover {
+    color: rgb(152, 181, 207);
 }
 
 /* Active class */
@@ -83,6 +83,6 @@
     display: block;
     width: 35px;
     height: 5px;
-    background-color: black;
+    background-color: aliceblue;
     margin: 6px 0;
 }
