@@ -4,7 +4,7 @@ import React from 'react'
 function Home() {
     return (
         <div className="Home">
-            hello
+            N'hésitez à faire connaitre le jeu :
             {/* <QrCode></QrCode> */}
         </div>
     );
